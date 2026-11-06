@@ -1,0 +1,7 @@
+
+
+# raspberrypi1 slots=4
+# raspberrypi2 slots=4
+# raspberrypi3 slots=4
+
+# mpirun --hostfile hosts.txt -np 4 ./ordenador dados.csv resultado.csv

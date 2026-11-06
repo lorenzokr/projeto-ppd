@@ -1,0 +1,8 @@
+192.168.1.10 slots=4  # Nó mestre (Raspberry Pi 4, por exemplo)
+192.168.1.11 slots=4  # Nó escravo 1
+192.168.1.12 slots=4  # Nó escravo 2
+
+#nó mestre tem que gerar as chave com sh-keygen -t rsa
+# apos isso copiar para os nos com ssh-copy-id pi@192.168.1.10
+
+#para rodar usar mpirun --hostfile hostfile.txt -np12 pyhton3 sudoku_mpi.py
